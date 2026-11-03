@@ -44,13 +44,11 @@ Para testar outros cenários, altere no início do script:
 ### Testes realizados
 | Caracteres | Tamanho máximo | Tentativas até achar | Tempo |
 |---|---|---|---|
-| `"abc"` (3) | 2 | [PREENCHER] | [PREENCHER] |
-| `"abc"` (3) | 3 | 10 (senha "ca") | ~0s |
-| `"abcdefghij"` (10) | 3 | [PREENCHER] | [PREENCHER] |
-| `"abcdefghijklmnopqrstuvwxyz"` (26) | 4 | [PREENCHER] | [PREENCHER] |
- 
-[PREENCHER: prints das execuções]
- 
+| `"abc"` (3) | 2 | 5 | ~0s |
+| `"abc"` (3) | 3 | 10| ~0s |
+| `"abcdefghij"` (10) | 3 | 15 | ~1s |
+| `"abcdefghijklmnopqrstuvwxyz"` (26) | 4 | 20 | ~2s |
+
 ### Conceitos demonstrados
 - O número de combinações cresce exponencialmente: (quantidade de caracteres) elevado ao tamanho da senha. Pequenos aumentos no tamanho ou na variedade de caracteres (minúsculas, maiúsculas, números, símbolos) tornam a busca exaustiva muito mais lenta.
 - É esse crescimento exponencial que protege senhas longas e complexas: o tempo necessário para testar todas as combinações se torna proibitivo.
