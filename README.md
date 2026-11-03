@@ -46,8 +46,8 @@ Para testar outros cenários, altere no início do script:
 |---|---|---|---|
 | `"abc"` (3) | 2 | 5 | ~0s |
 | `"abc"` (3) | 3 | 10| ~0s |
-| `"abcdefghij"` (10) | 3 | 15 | ~1s |
-| `"abcdefghijklmnopqrstuvwxyz"` (26) | 4 | 20 | ~2s |
+| `"abcdefghij"` (10) | 3 | 25 | ~1s |
+| `"abcdefghijklmnopqrstuvwxyz"` (26) | 4 | 50 | ~2s |
 
 ### Conceitos demonstrados
 - O número de combinações cresce exponencialmente: (quantidade de caracteres) elevado ao tamanho da senha. Pequenos aumentos no tamanho ou na variedade de caracteres (minúsculas, maiúsculas, números, símbolos) tornam a busca exaustiva muito mais lenta.
